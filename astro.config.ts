@@ -32,7 +32,7 @@ export default defineConfig({
 		robotsTxt(),
 		webmanifest({
 			name: siteConfig.title,
-			short_name: "CIELO-G Learning", // optional
+			short_name: "HealthInnoAI", // optional
 			description: siteConfig.description,
 			lang: siteConfig.lang,
 			icon: "public/icon.svg", // the source for generating favicon & icons
