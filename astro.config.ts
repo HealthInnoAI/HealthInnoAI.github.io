@@ -23,7 +23,7 @@ import rehypeUnwrapImages from "rehype-unwrap-images";
 
 // https://astro.build/config
 export default defineConfig({
-	site: "https://cielo-g.github.io/",
+	site: "https://healthinnoai.github.io/",
 	integrations: [
 		expressiveCode(expressiveCodeOptions),
 		icon(),
