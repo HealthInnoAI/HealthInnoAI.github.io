@@ -17,8 +17,6 @@ A sexually transmitted virus that destroys white blood cells in the immune syste
 * HIV remains a major global health issue, with an estimated 42.3 million deaths and ongoing transmission worldwide.
 :::
 
-
-
 | How Your Immune System Fights Back | How HIV Breaks Down Your Defenses                                                            |
 | ------ | ------------------------------------------------------------------------- |
 | • The immune system produces white blood cells (leukocytes) to kill pathogens. | • HIV attaches to special immune cells called CD4 cells and uses them to make copies of itself.|
@@ -26,6 +24,14 @@ A sexually transmitted virus that destroys white blood cells in the immune syste
 |• Inflammation expands blood flow, bringing more leukocytes to the area. | • When too many CD4 cells are lost (below 200 cells per millimeter of blood), the body becomes very vulnerable to infections. |
 
 ------------------------------------------------------------------------------------------------------------------------------
+
+<iframe 
+    src="https://my.spline.design/cieloglayersoftheearthnoninteractivecopycopy-TZS1qrzJecqRAK9lMkqeSXPg/" 
+    width="100%" 
+    height="500" 
+    frameborder="0">
+</iframe>
+
 **Progression of HIV**
 
 HIV spreads through certain body fluids: blood, semen, vaginal fluids, and breast milk.
