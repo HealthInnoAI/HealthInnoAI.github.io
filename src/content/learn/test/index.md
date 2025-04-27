@@ -1,7 +1,9 @@
 # What is HIV?
 **Human immunodeficiency virus (HIV)**
 A sexually transmitted virus that destroys white blood cells in the immune system, leaving the body vulnerable to life-threatening diseases
+## Images
 
+Image in the same folder: `src/content/learn/test/Picture1.png`
 :::important[Did you know?]
 * Over 1.2 million Americans are living with HIV/AIDS.
 * Globally, half of infections are among women, but in the U.S., HIV is predominantly among men who share needles or have sex with men.
@@ -140,16 +142,6 @@ Block code "fences"
 Sample text here...
 ```
 
-Syntax highlighting
-
-```js
-var foo = function (bar) {
-	return bar++;
-};
-
-console.log(foo(5));
-```
-
 ### Expressive code examples
 
 Adding a title
@@ -205,9 +197,7 @@ function demo() {
 | Close a split         | <kbd>Ctrl+Shift+W</kbd>                    |
 | Maximize a pane       | <kbd>Ctrl+Shift+P</kbd> + Toggle pane zoom |
 
-## Images
 
-Image in the same folder: `src/content/post/markdown-elements/logo.png`
 
 ![Astro theme cactus logo](./logo.png)
 
