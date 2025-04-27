@@ -6,7 +6,7 @@ topic: "Sexual Health / Salud Sexual"
 tags: ["VIH", "SIDA", "Español", "Tratamiento"]
 ---
 
-# ¿Qué es el VIH?
+## ¿Qué es el VIH?
 **Virus de la Inmunodeficiencia Humana (VIH)**
 
 Un virus de transmisión sexual que destruye los glóbulos blancos del sistema inmunológico, dejando al cuerpo vulnerable a enfermedades potencialmente mortales.
@@ -63,7 +63,7 @@ El VIH se propaga a través de ciertos fluidos corporales: sangre, semen, fluido
 
 --------------------------------------------------------------------------------------------------------------
 
-# **Signos y síntomas**
+## **Signos y síntomas**
 Los síntomas del VIH varían dependiendo de la etapa de la infección.
 
 :::caution
@@ -79,7 +79,7 @@ El VIH se propaga más fácilmente en los primeros meses después de la infecci�
 - La ART actual no cura la infección por VIH, pero permite que el sistema inmunológico se fortalezca. Esto ayuda a combatir otras infecciones.
 - Actualmente, la ART debe tomarse todos los días durante el resto de la vida de una persona. La ART reduce la cantidad de virus en el cuerpo, detiene los síntomas y permite vivir una vida larga y saludable.
 
-# Cuestionario Interactivo sobre el VIH
+## Quiz Interactivo y Recap sobre el VIH
 
 <iframe 
   src="https://editor.p5js.org/Ritbaven/full/fkXK7WBc0" 
@@ -90,7 +90,7 @@ El VIH se propaga más fácilmente en los primeros meses después de la infecci�
   allowfullscreen
 ></iframe>
 
-# Notas al pie
+## Notas al pie
 
 Referencias: 
 
