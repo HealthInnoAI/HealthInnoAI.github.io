@@ -1,0 +1,105 @@
+---
+import { type CollectionEntry, render } from "astro:content";
+
+import Masthead from "@/components/blog/Masthead.astro";
+import TOC from "@/components/blog/TOC.astro";
+import WebMentions from "@/components/blog/webmentions/index.astro";
+
+import BaseLayout from "./Base.astro";
+
+interface Props {
+	post: CollectionEntry<"learn">;
+}
+
+const { post } = Astro.props;
+const { ogImage, title, description, updatedDate, publishDate } = post.data;
+const socialImage = ogImage ?? `/og-image/${post.id}.png`;
+const articleDate = updatedDate?.toISOString() ?? publishDate.toISOString();
+const { headings, remarkPluginFrontmatter } = await render(post);
+const readingTime: string = remarkPluginFrontmatter.readingTime;
+---
+
+<BaseLayout
+	meta={{
+		articleDate,
+		description,
+		ogImage: socialImage,
+		title,
+	}}
+>
+	<article class="grow break-words" data-pagefind-body>
+		<div id="blog-hero" class="mb-12"><Masthead content={post} readingTime={readingTime} /></div>
+		<div class="flex flex-col gap-10 lg:flex-row lg:items-start">
+			{!!headings.length && <TOC headings={headings} />}
+			<div
+				class="prose prose-sm max-w-4xl prose-headings:font-semibold prose-headings:text-accent-2 prose-headings:before:absolute prose-headings:before:-ms-4 prose-headings:before:text-gray-600 prose-headings:hover:before:text-accent sm:prose-headings:before:content-['#'] sm:prose-th:before:content-none"
+			>
+				<slot />
+				<WebMentions />
+			</div>
+		</div>
+	</article>
+	
+	<!-- Vita AI sticky embed -->
+	<div id="vita-ai-container" class="fixed left-4 bottom-0 z-90 sm:left-8 flex flex-col items-start transition-transform duration-300" style="will-change: transform; transform: translateY(calc(100% - 40px));">
+		<button id="vita-ai-toggle" class="relative left-2 rounded-t-lg rounded-b-none bg-accent text-white px-4 py-2 shadow-lg border-2 border-zinc-200 dark:border-zinc-700 font-semibold cursor-pointer">
+			Vita AI
+		</button>
+		<iframe 
+			src="https://editor.p5js.org/Ritbaven/full/QBHAVPQhu"
+			class="w-[300px] h-[300px] rounded-lg rounded-b-none shadow-lg border-2 border-zinc-200 dark:border-zinc-700 bg-white dark:bg-zinc-800"
+			title="P5.js Sketch"
+		></iframe>
+	</div>
+
+	<button
+		class="hover:border-link fixed end-4 bottom-8 z-90 flex h-10 w-10 translate-y-28 cursor-pointer items-center justify-center rounded-full border-2 border-transparent bg-zinc-200 text-3xl opacity-0 transition-all transition-discrete duration-300 data-[show=true]:translate-y-0 data-[show=true]:opacity-100 sm:end-8 sm:h-12 sm:w-12 dark:bg-zinc-700"
+		data-show="false"
+		id="to-top-btn"
+	>
+		<span class="sr-only">Back to top</span>
+		<svg
+			aria-hidden="true"
+			class="h-6 w-6"
+			fill="none"
+			focusable="false"
+			stroke="currentColor"
+			stroke-width="2"
+			viewBox="0 0 24 24"
+			xmlns="http://www.w3.org/2000/svg"
+		>
+			<path d="M4.5 15.75l7.5-7.5 7.5 7.5" stroke-linecap="round" stroke-linejoin="round"></path>
+		</svg>
+	</button>
+</BaseLayout>
+
+<script>
+	const scrollBtn = document.getElementById("to-top-btn") as HTMLButtonElement;
+	const targetHeader = document.getElementById("blog-hero") as HTMLDivElement;
+
+	function callback(entries: IntersectionObserverEntry[]) {
+		entries.forEach((entry) => {
+			// only show the scroll to top button when the heading is out of view
+			scrollBtn.dataset.show = (!entry.isIntersecting).toString();
+		});
+	}
+
+	scrollBtn.addEventListener("click", () => {
+		document.documentElement.scrollTo({ behavior: "smooth", top: 0 });
+	});
+
+	const observer = new IntersectionObserver(callback);
+	observer.observe(targetHeader);
+
+	// Vita AI toggle logic
+	const vitaContainer = document.getElementById("vita-ai-container");
+	const vitaToggle = document.getElementById("vita-ai-toggle");
+	let vitaOpen = false;
+
+	if (vitaContainer && vitaToggle) {
+		vitaToggle.addEventListener("click", () => {
+			vitaOpen = !vitaOpen;
+			vitaContainer.style.transform = vitaOpen ? "translateY(0%)" : "translateY(calc(100% - 40px))";
+		});
+	}
+</script>
