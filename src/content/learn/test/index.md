@@ -10,7 +10,7 @@ tags: ["HIV", "AIDS", "English", "Treatment"]
 
 A sexually transmitted virus that destroys white blood cells in the immune system, leaving the body vulnerable to life-threatening diseases
 
-`src/content/learn/test/Picture1.png`
+<img src="/src/content/learn/test/Picture1.png" alt="HIV illustration" />
 :::important[Did you know?]
 * Over 1.2 million Americans are living with HIV/AIDS.
 * Globally, half of infections are among women, but in the U.S., HIV is predominantly among men who share needles or have sex with men.
