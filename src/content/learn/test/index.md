@@ -2,7 +2,7 @@
 title: "HIV"
 description: "What is HIV?"
 publishDate: "23 Apr 2025"
-topic: "HIV"
+topic: "Sexual Health / Salud Sexual"
 tags: ["HIV", "AIDS", "English", "Treatment"]
 ---
 # What is HIV?
