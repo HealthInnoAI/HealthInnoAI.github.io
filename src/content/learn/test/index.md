@@ -1,3 +1,12 @@
+# What is HIV?
+**Human immunodeficiency virus (HIV)**
+A sexually transmitted virus that destroys white blood cells in the immune system, leaving the body vulnerable to life-threatening diseases
+
+:::important[Did you know?]
+* Over 1.2 million Americans are living with HIV/AIDS.
+* Globally, half of infections are among women, but in the U.S., HIV is predominantly among men who share needles or have sex with men.
+* HIV remains a major global health issue, with an estimated 42.3 million deaths and ongoing transmission worldwide.
+:::
 ---
 title: "This is a testing page"
 description: "A page to test interactive functionalities for the website!"
@@ -41,10 +50,6 @@ ogImage: "./logo.png"
 </iframe>
 
 # The following content shows the possible writing formattings:
-
-# This is a H1 Heading
-
-## This is a H2 Heading
 
 ### This is a H3 Heading
 
