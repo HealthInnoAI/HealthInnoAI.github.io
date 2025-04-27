@@ -11,7 +11,7 @@ tags: ["VIH", "SIDA", "Español", "Tratamiento"]
 
 Un virus de transmisión sexual que destruye los glóbulos blancos del sistema inmunológico, dejando al cuerpo vulnerable a enfermedades potencialmente mortales.
 
-`src/content/learn/test/Picture1.png`
+![Picture1](Picture1.png)
 :::important[¿Sabías que...?]
 * Más de 1.2 millones de estadounidenses viven con VIH/SIDA.
 * A nivel mundial, la mitad de las infecciones son entre mujeres, pero en EE. UU., el VIH se da principalmente entre hombres que comparten agujas o tienen relaciones sexuales con otros hombres.
