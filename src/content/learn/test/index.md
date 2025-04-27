@@ -1,19 +1,83 @@
 ---
-title: "My Test Page"
-description: "This is a test page to preview features"
-publishDate: "2025-04-27"  # must be ISO format (YYYY-MM-DD)
+title: "This is a testing page"
+description: "A page to test interactive functionalities for the website!"
+publishDate: "23 Apr 2025"
+topic: "Testing"
+tags: ["Test"]
 ---
 # What is HIV?
 **Human immunodeficiency virus (HIV)**
-A sexually transmitted virus that destroys white blood cells in the immune system, leaving the body vulnerable to life-threatening diseases
-## Images
 
-Image in the same folder: `src/content/learn/test/Picture1.png`
+A sexually transmitted virus that destroys white blood cells in the immune system, leaving the body vulnerable to life-threatening diseases
+
+`src/content/learn/test/Picture1.png`
 :::important[Did you know?]
 * Over 1.2 million Americans are living with HIV/AIDS.
 * Globally, half of infections are among women, but in the U.S., HIV is predominantly among men who share needles or have sex with men.
 * HIV remains a major global health issue, with an estimated 42.3 million deaths and ongoing transmission worldwide.
 :::
+
+
+
+| How Your Immune System Fights Back | How HIV Breaks Down Your Defenses                                                            |
+| ------ | ------------------------------------------------------------------------- |
+| • The immune system produces white blood cells (leukocytes) to kill pathogens. | • HIV attaches to special immune cells called CD4 cells and uses them to make copies of itself.|
+|• Leukocytes recognize pathogens by surface antigens, where antibodies attach. | • It destroys these CD4 cells over time, making the immune system weaker. |
+|• Inflammation expands blood flow, bringing more leukocytes to the area. | • When too many CD4 cells are lost (below 200 cells per millimeter of blood), the body becomes very vulnerable to infections. |
+
+------------------------------------------------------------------------------------------------------------------------------
+**Progression of HIV**
+
+HIV spreads through certain body fluids: blood, semen, vaginal fluids, and breast milk.
+* Mild flu-like symptoms can appear soon after infection.
+* Many people stay symptom-free for years, while others develop symptoms earlier.
+
+**Transmission of HIV**
+* Exposure (except breast milk) can happen through:
+* Vaginal, anal, or oral-genital sex
+* Sharing needles or needle injuries
+* Blood transfusions or organ transplants
+* Artificial insemination
+* Childbirth
+
+
+:::warning[Risk Factors]
+* Number of sexual contacts with an infected partner
+* Type of sexual activity
+* Amount of virus in body fluids
+* Other sexually transmitted infections (STIs)
+* Circumcision status
+* Genetics
+:::
+------------------------------------------------------------------------------------------------------------------------------
+
+
+| **HIV is NOT Transmitted by ❌**                                                                 | **How HIV is Diagnosed 🩺**                                                  | **HIV Treatment 💊**                                                                       |
+|-----------------------------------------------------------------------------------------------|---------------------------------------------------------------------------|------------------------------------------------------------------------------------------|
+| • Donating blood: Always safe, sterile needles are used.                                      | • HIV is diagnosed by detecting antibodies.                               | • HAART (Highly Active Antiretroviral Therapy) uses a combination of antiviral drugs.    |
+| • Casual contact: No risk from hugs, handshakes, or sharing bathrooms.                        | • ELISA: Common test using blood, saliva, or urine.                       | • Reduced U.S. HIV death rate by 75% since the 1990s.                                    |
+| • Insect or animal bites: HIV cannot survive in animals.                                      | • OraQuick: Faster antibody test, sometimes for home use.                | • Treatment is expensive.                                                                |
+| • Airborne germs or food: HIV does not spread like colds or food poisoning.                   | • Antibodies take weeks to appear (window period).                       | • Global access to these advances remains limited.                                       |
+| • Sharing spaces: No risk from living or working with someone who has HIV.                    | • Positive results require confirmation.                                 |                                                                                          |
+| • Kissing: Closed mouth: No risk.                                                             |                                                                           |                                                                                          |
+--------------------------------------------------------------------------------------------------------------
+
+# **Signs and symptoms**
+The symptoms of HIV vary depending on the stage of infection.
+
+:::caution
+HIV spreads more easily in the first few months after a person is infected, but many are unaware of their status until the later stages
+:::
+--------------------------------------------------------------------------------------------------------------
+### Facts about ART (Treatment):
+
+-	People living with HIV who are taking antiretroviral therapy (ART) and have an undetectable viral load will not transmit HIV to their sexual partners. 
+-	Early access to ART and support to remain on treatment is therefore critical not only to improve the health of people living with HIV but also to prevent HIV transmission.
+-	Current antiretroviral therapy (ART) does not cure HIV infection but allows a person’s immune system to get stronger. This helps them to fight other infections.
+-	Currently, ART must be taken every day for the rest of a person’s life. ART lowers the amount of the virus in a person’s body. This stops symptoms and allows people to live full and healthy lives. 
+
+
+
 ---
 title: "This is a testing page"
 description: "A page to test interactive functionalities for the website!"
@@ -56,264 +120,21 @@ ogImage: "./logo.png"
     frameborder="0">
 </iframe>
 
-# The following content shows the possible writing formattings:
+# Footnotes
 
-### This is a H3 Heading
+References: 
 
-#### This is a H4 Heading
+https://www.who.int/news-room/fact-sheets/detail/hiv-aids ↩
 
-##### This is a H5 Heading
+https://www.gob.mx/censida  ↩
 
-###### This is a H6 Heading
+Video by cgbp from https://pixabay.com  ↩
 
-## Horizontal Rules
+Image by cromaconceptovisual from https://pixabay.com ↩
 
----
+Image by Alexandra_Koch from https://pixabay.com ↩
 
----
+Image by OpenClipart-Vectors from https://pixabay.com ↩
 
----
+Image by roundsquid from https://pixabay.com ↩
 
-## Emphasis
-
-**This is bold text**
-
-_This is italic text_
-
-~~Strikethrough~~
-
-## Quotes
-
-"Double quotes" and 'single quotes'
-
-## Blockquotes
-
-> Blockquotes can also be nested...
->
-> > ...by using additional greater-than signs right next to each other...
-
-## References
-
-An example containing a clickable reference[^1] with a link to the source.
-
-Second example containing a reference[^2] with a link to the source.
-
-[^1]: Reference first footnote with a return to content link.
-
-[^2]: Second reference with a link.
-
-If you check out this example in `src/content/post/markdown-elements/index.md`, you'll notice that the references and the heading "Footnotes" are added to the bottom of the page via the [remark-rehype](https://github.com/remarkjs/remark-rehype#options) plugin.
-
-## Lists
-
-Unordered
-
-- Create a list by starting a line with `+`, `-`, or `*`
-- Sub-lists are made by indenting 2 spaces:
-  - Marker character change forces new list start:
-    - Ac tristique libero volutpat at
-    - Facilisis in pretium nisl aliquet
-    - Nulla volutpat aliquam velit
-- Very easy!
-
-Ordered
-
-1. Lorem ipsum dolor sit amet
-2. Consectetur adipiscing elit
-3. Integer molestie lorem at massa
-
-4. You can use sequential numbers...
-5. ...or keep all the numbers as `1.`
-
-Start numbering with offset:
-
-57. foo
-1. bar
-
-## Code
-
-Inline `code`
-
-Indented code
-
-    // Some comments
-    line 1 of code
-    line 2 of code
-    line 3 of code
-
-Block code "fences"
-
-```
-Sample text here...
-```
-
-### Expressive code examples
-
-Adding a title
-
-```js title="file.js"
-console.log("Title example");
-```
-
-A bash terminal
-
-```bash
-echo "A base terminal example"
-```
-
-Highlighting code lines
-
-```js title="line-markers.js" del={2} ins={3-4} {6}
-function demo() {
-	console.log("this line is marked as deleted");
-	// This line and the next one are marked as inserted
-	console.log("this is the second inserted line");
-
-	return "this line uses the neutral default marker type";
-}
-```
-
-[Expressive Code](https://expressive-code.com/) can do a ton more than shown here, and includes a lot of [customisation](https://expressive-code.com/reference/configuration/).
-
-## Tables
-
-| Option | Description                                                               |
-| ------ | ------------------------------------------------------------------------- |
-| data   | path to data files to supply the data that will be passed into templates. |
-| engine | engine to be used for processing templates. Handlebars is the default.    |
-| ext    | extension to be used for dest files.                                      |
-
-### Table Alignment
-
-| Item         | Price | # In stock |
-| ------------ | :---: | ---------: |
-| Juicy Apples | 1.99  |        739 |
-| Bananas      | 1.89  |          6 |
-
-### Keyboard elements
-
-| Action                | Shortcut                                   |
-| --------------------- | ------------------------------------------ |
-| Vertical split        | <kbd>Alt+Shift++</kbd>                     |
-| Horizontal split      | <kbd>Alt+Shift+-</kbd>                     |
-| Auto split            | <kbd>Alt+Shift+d</kbd>                     |
-| Switch between splits | <kbd>Alt</kbd> + arrow keys                |
-| Resizing a split      | <kbd>Alt+Shift</kbd> + arrow keys          |
-| Close a split         | <kbd>Ctrl+Shift+W</kbd>                    |
-| Maximize a pane       | <kbd>Ctrl+Shift+P</kbd> + Toggle pane zoom |
-
-
-
-![Astro theme cactus logo](./logo.png)
-
-## Links
-
-[Content from markdown-it](https://markdown-it.github.io/)
-
-## Admonitions
-
-What are admonitions? Admonitions (also known as “asides”) are useful for providing supportive and/or supplementary information related to your content.
-
-## How to use them
-
-To use admonitions in Astro Cactus, wrap your Markdown content in a pair of triple colons `:::`. The first pair should also include the type of admonition you want to use.
-
-For example, with the following Markdown:
-
-```md
-:::note
-Highlights information that users should take into account, even when skimming.
-:::
-```
-
-Outputs:
-
-:::note
-Highlights information that users should take into account, even when skimming.
-:::
-
-## Admonition Types
-
-The following admonitions are currently supported:
-
-- `note`
-- `tip`
-- `important`
-- `warning`
-- `caution`
-
-### Note
-
-```md
-:::note
-Highlights information that users should take into account, even when skimming.
-:::
-```
-
-:::note
-Highlights information that users should take into account, even when skimming.
-:::
-
-### Tip
-
-```md
-:::tip
-Optional information to help a user be more successful.
-:::
-```
-
-:::tip
-Optional information to help a user be more successful.
-:::
-
-### Important
-
-```md
-:::important
-Crucial information necessary for users to succeed.
-:::
-```
-
-:::important
-Crucial information necessary for users to succeed.
-:::
-
-### Caution
-
-```md
-:::caution
-Negative potential consequences of an action.
-:::
-```
-
-:::caution
-Negative potential consequences of an action.
-:::
-
-### Warning
-
-```md
-:::warning
-Critical content demanding immediate user attention due to potential risks.
-:::
-```
-
-:::warning
-Critical content demanding immediate user attention due to potential risks.
-:::
-
-## Customising the admonition title
-
-You can customise the admonition title using the following markup:
-
-```md
-:::note[My custom title]
-This is a note with a custom title.
-:::
-```
-
-Outputs:
-
-:::note[My custom title]
-This is a note with a custom title.
-:::
