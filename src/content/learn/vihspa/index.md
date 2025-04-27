@@ -1,7 +1,7 @@
 ---
 title: "VIH"
 description: "¿Qué es el VIH?"
-publishDate: "23 Abr 2025"
+publishDate: "23 Apr 2025"
 topic: "VIH"
 tags: ["VIH", "SIDA", "Español", "Tratamiento"]
 ---
