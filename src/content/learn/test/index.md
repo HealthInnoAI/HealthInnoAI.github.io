@@ -5,7 +5,7 @@ publishDate: "23 Apr 2025"
 topic: "Sexual Health / Salud Sexual"
 tags: ["HIV", "AIDS", "English", "Treatment"]
 ---
-# What is HIV?
+## What is HIV?
 **Human immunodeficiency virus (HIV)**
 
 A sexually transmitted virus that destroys white blood cells in the immune system, leaving the body vulnerable to life-threatening diseases
@@ -62,7 +62,7 @@ HIV spreads through certain body fluids: blood, semen, vaginal fluids, and breas
 | • Kissing: Closed mouth: No risk.                                                             |                                                                           |                                                                                          |
 --------------------------------------------------------------------------------------------------------------
 
-# **Signs and symptoms**
+## **Signs and symptoms**
 The symptoms of HIV vary depending on the stage of infection.
 
 :::caution
@@ -76,7 +76,7 @@ HIV spreads more easily in the first few months after a person is infected, but 
 -	Current antiretroviral therapy (ART) does not cure HIV infection but allows a person’s immune system to get stronger. This helps them to fight other infections.
 -	Currently, ART must be taken every day for the rest of a person’s life. ART lowers the amount of the virus in a person’s body. This stops symptoms and allows people to live full and healthy lives.
 
-# Interactive HIV Quiz
+## Interactive HIV Quiz
 
 <iframe 
   src="https://editor.p5js.org/Ritbaven/full/fkXK7WBc0" 
@@ -88,7 +88,7 @@ HIV spreads more easily in the first few months after a person is infected, but 
 ></iframe>
 
 
-# Footnotes
+## Footnotes
 
 References: 
 
