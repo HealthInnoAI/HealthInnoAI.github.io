@@ -76,7 +76,7 @@ HIV spreads more easily in the first few months after a person is infected, but 
 -	Current antiretroviral therapy (ART) does not cure HIV infection but allows a person’s immune system to get stronger. This helps them to fight other infections.
 -	Currently, ART must be taken every day for the rest of a person’s life. ART lowers the amount of the virus in a person’s body. This stops symptoms and allows people to live full and healthy lives.
 
-## Interactive HIV Quiz
+## Recap flashcards & interactive HIV quiz
 
 <iframe 
   src="https://editor.p5js.org/Ritbaven/full/fkXK7WBc0" 
