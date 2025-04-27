@@ -1,5 +1,5 @@
 ---
-title: "Diabetes"
+title: "[ESP] Diabetes"
 description: "¿Qué es la Diabetes?"
 publishDate: "2025-04-23"
 topic: "Diabetes"
