@@ -1,3 +1,8 @@
+---
+title: "My Test Page"
+description: "This is a test page to preview features"
+publishDate: "2025-04-27"  # must be ISO format (YYYY-MM-DD)
+---
 # What is HIV?
 **Human immunodeficiency virus (HIV)**
 A sexually transmitted virus that destroys white blood cells in the immune system, leaving the body vulnerable to life-threatening diseases
