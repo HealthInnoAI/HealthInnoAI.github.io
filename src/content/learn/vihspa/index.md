@@ -1,319 +1,109 @@
 ---
-title: "What is HIV?"
-description: "A page to test interactive functionalities for the website!"
-publishDate: "23 Apr 2025"
-topic: "HIV"
-tags: ["HIV"]
-coverImage:
-  src: "./hiv.png"
-  alt: "hiv"
-ogImage: "./hiv.png"
+title: "VIH"
+description: "¿Qué es el VIH?"
+publishDate: "23 Abr 2025"
+topic: "VIH"
+tags: ["VIH", "SIDA", "Español", "Tratamiento"]
 ---
 
-## This is a GIF animation embedding:
-![GIF](./animation.gif)
+# ¿Qué es el VIH?
+**Virus de la Inmunodeficiencia Humana (VIH)**
 
-## This is a YouTube video embedding:
-<iframe 
-    src="https://www.youtube.com/embed/UzaLg1BL6lI" 
-    title="Journey Through The Seven Continents Of Our World" 
-    frameborder="0" 
-    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
-    allowfullscreen 
-    width="100%" 
-    height="315">
-</iframe>
+Un virus de transmisión sexual que destruye los glóbulos blancos del sistema inmunológico, dejando al cuerpo vulnerable a enfermedades potencialmente mortales.
 
-## This is a 3D Interactive embedding (using Spline):
-<iframe 
-    src="https://my.spline.design/cieloglayersoftheearthnoninteractivecopycopy-TZS1qrzJecqRAK9lMkqeSXPg/" 
-    width="100%" 
-    height="500" 
-    frameborder="0">
-</iframe>
+`src/content/learn/test/Picture1.png`
+:::important[¿Sabías que...?]
+* Más de 1.2 millones de estadounidenses viven con VIH/SIDA.
+* A nivel mundial, la mitad de las infecciones son entre mujeres, pero en EE. UU., el VIH se da principalmente entre hombres que comparten agujas o tienen relaciones sexuales con otros hombres.
+* El VIH sigue siendo un problema importante de salud mundial, con un estimado de 42.3 millones de muertes y transmisión continua en todo el mundo.
+:::
 
-## This is a 2D Interactive embedding (using p5.js):
-<iframe 
-    src="https://editor.p5js.org/arthifact/full/uYnYvKU7r" 
-    width="100%" 
-    height="500" 
-    frameborder="0">
-</iframe>
-
-# The following content shows the possible writing formattings:
-
-# This is a H1 Heading
-
-## This is a H2 Heading
-
-### This is a H3 Heading
-
-#### This is a H4 Heading
-
-##### This is a H5 Heading
-
-###### This is a H6 Heading
-
-## Horizontal Rules
-
----
-
----
-
----
-
-## Emphasis
-
-**This is bold text**
-
-_This is italic text_
-
-~~Strikethrough~~
-
-## Quotes
-
-"Double quotes" and 'single quotes'
-
-## Blockquotes
-
-> Blockquotes can also be nested...
->
-> > ...by using additional greater-than signs right next to each other...
-
-## References
-
-An example containing a clickable reference[^1] with a link to the source.
-
-Second example containing a reference[^2] with a link to the source.
-
-[^1]: Reference first footnote with a return to content link.
-
-[^2]: Second reference with a link.
-
-If you check out this example in `src/content/post/markdown-elements/index.md`, you'll notice that the references and the heading "Footnotes" are added to the bottom of the page via the [remark-rehype](https://github.com/remarkjs/remark-rehype#options) plugin.
-
-## Lists
-
-Unordered
-
-- Create a list by starting a line with `+`, `-`, or `*`
-- Sub-lists are made by indenting 2 spaces:
-  - Marker character change forces new list start:
-    - Ac tristique libero volutpat at
-    - Facilisis in pretium nisl aliquet
-    - Nulla volutpat aliquam velit
-- Very easy!
-
-Ordered
-
-1. Lorem ipsum dolor sit amet
-2. Consectetur adipiscing elit
-3. Integer molestie lorem at massa
-
-4. You can use sequential numbers...
-5. ...or keep all the numbers as `1.`
-
-Start numbering with offset:
-
-57. foo
-1. bar
-
-## Code
-
-Inline `code`
-
-Indented code
-
-    // Some comments
-    line 1 of code
-    line 2 of code
-    line 3 of code
-
-Block code "fences"
-
-```
-Sample text here...
-```
-
-Syntax highlighting
-
-```js
-var foo = function (bar) {
-	return bar++;
-};
-
-console.log(foo(5));
-```
-
-### Expressive code examples
-
-Adding a title
-
-```js title="file.js"
-console.log("Title example");
-```
-
-A bash terminal
-
-```bash
-echo "A base terminal example"
-```
-
-Highlighting code lines
-
-```js title="line-markers.js" del={2} ins={3-4} {6}
-function demo() {
-	console.log("this line is marked as deleted");
-	// This line and the next one are marked as inserted
-	console.log("this is the second inserted line");
-
-	return "this line uses the neutral default marker type";
-}
-```
-
-[Expressive Code](https://expressive-code.com/) can do a ton more than shown here, and includes a lot of [customisation](https://expressive-code.com/reference/configuration/).
-
-## Tables
-
-| Option | Description                                                               |
+| Cómo responde tu sistema inmunológico | Cómo el VIH debilita tus defensas |
 | ------ | ------------------------------------------------------------------------- |
-| data   | path to data files to supply the data that will be passed into templates. |
-| engine | engine to be used for processing templates. Handlebars is the default.    |
-| ext    | extension to be used for dest files.                                      |
+| • El sistema inmunológico produce glóbulos blancos (leucocitos) para matar patógenos. | • El VIH se adhiere a células inmunológicas especiales llamadas células CD4 y las utiliza para hacer copias de sí mismo. |
+| • Los leucocitos reconocen patógenos mediante antígenos de superficie, donde se adhieren los anticuerpos. | • Destruye estas células CD4 con el tiempo, debilitando el sistema inmunológico. |
+| • La inflamación expande el flujo sanguíneo, trayendo más leucocitos al área. | • Cuando se pierden demasiadas células CD4 (menos de 200 células por milímetro de sangre), el cuerpo se vuelve muy vulnerable a infecciones. |
 
-### Table Alignment
+------------------------------------------------------------------------------------------------------------------------------
 
-| Item         | Price | # In stock |
-| ------------ | :---: | ---------: |
-| Juicy Apples | 1.99  |        739 |
-| Bananas      | 1.89  |          6 |
+**Progresión del VIH**
 
-### Keyboard elements
+El VIH se propaga a través de ciertos fluidos corporales: sangre, semen, fluidos vaginales y leche materna.
 
-| Action                | Shortcut                                   |
-| --------------------- | ------------------------------------------ |
-| Vertical split        | <kbd>Alt+Shift++</kbd>                     |
-| Horizontal split      | <kbd>Alt+Shift+-</kbd>                     |
-| Auto split            | <kbd>Alt+Shift+d</kbd>                     |
-| Switch between splits | <kbd>Alt</kbd> + arrow keys                |
-| Resizing a split      | <kbd>Alt+Shift</kbd> + arrow keys          |
-| Close a split         | <kbd>Ctrl+Shift+W</kbd>                    |
-| Maximize a pane       | <kbd>Ctrl+Shift+P</kbd> + Toggle pane zoom |
+* Pueden aparecer síntomas leves similares a la gripe poco después de la infección.
+* Muchas personas permanecen sin síntomas durante años, mientras que otras desarrollan síntomas antes.
 
-## Images
+**Transmisión del VIH**
+* La exposición (excepto por la leche materna) puede ocurrir mediante:
+* Sexo vaginal, anal o oral-genital
+* Compartir agujas o lesiones con agujas
+* Transfusiones de sangre u órganos
+* Inseminación artificial
+* Parto
 
-Image in the same folder: `src/content/post/markdown-elements/hiv.png`
-
-![Astro theme cactus logo](./hiv.png)
-
-## Links
-
-[Content from markdown-it](https://markdown-it.github.io/)
-
-## Admonitions
-
-What are admonitions? Admonitions (also known as “asides”) are useful for providing supportive and/or supplementary information related to your content.
-
-## How to use them
-
-To use admonitions in Astro Cactus, wrap your Markdown content in a pair of triple colons `:::`. The first pair should also include the type of admonition you want to use.
-
-For example, with the following Markdown:
-
-```md
-:::note
-Highlights information that users should take into account, even when skimming.
-:::
-```
-
-Outputs:
-
-:::note
-Highlights information that users should take into account, even when skimming.
+:::warning[Factores de riesgo]
+* Número de contactos sexuales con una pareja infectada
+* Tipo de actividad sexual
+* Cantidad de virus en los fluidos corporales
+* Otras infecciones de transmisión sexual (ITS)
+* Estado de circuncisión
+* Genética
 :::
 
-## Admonition Types
+------------------------------------------------------------------------------------------------------------------------------
 
-The following admonitions are currently supported:
+| **El VIH NO se transmite por ❌** | **Cómo se diagnostica el VIH 🩺** | **Tratamiento del VIH 💊** |
+|-----------------------------------------------------------------------------------------------|---------------------------------------------------------------------------|------------------------------------------------------------------------------------------|
+| • Donar sangre: Siempre se usan agujas estériles y seguras. | • El VIH se diagnostica detectando anticuerpos. | • La HAART (Terapia Antirretroviral Altamente Activa) usa una combinación de medicamentos antivirales. |
+| • Contacto casual: No hay riesgo al abrazar, dar la mano o compartir baños. | • ELISA: Prueba común utilizando sangre, saliva u orina. | • La tasa de mortalidad por VIH en EE. UU. se redujo en un 75% desde los años 90. |
+| • Picaduras de insectos o animales: El VIH no sobrevive en animales. | • OraQuick: Prueba rápida de anticuerpos, a veces para uso doméstico. | • El tratamiento es costoso. |
+| • Gérmenes transmitidos por el aire o alimentos: El VIH no se propaga como los resfriados o intoxicaciones alimentarias. | • Los anticuerpos tardan semanas en aparecer (período de ventana). | • El acceso global a estos avances sigue siendo limitado. |
+| • Compartir espacios: No hay riesgo al vivir o trabajar con alguien que tenga VIH. | • Los resultados positivos requieren confirmación. | |
+| • Besos de boca cerrada: No hay riesgo. | | |
 
-- `note`
-- `tip`
-- `important`
-- `warning`
-- `caution`
+--------------------------------------------------------------------------------------------------------------
 
-### Note
-
-```md
-:::note
-Highlights information that users should take into account, even when skimming.
-:::
-```
-
-:::note
-Highlights information that users should take into account, even when skimming.
-:::
-
-### Tip
-
-```md
-:::tip
-Optional information to help a user be more successful.
-:::
-```
-
-:::tip
-Optional information to help a user be more successful.
-:::
-
-### Important
-
-```md
-:::important
-Crucial information necessary for users to succeed.
-:::
-```
-
-:::important
-Crucial information necessary for users to succeed.
-:::
-
-### Caution
-
-```md
-:::caution
-Negative potential consequences of an action.
-:::
-```
+# **Signos y síntomas**
+Los síntomas del VIH varían dependiendo de la etapa de la infección.
 
 :::caution
-Negative potential consequences of an action.
+El VIH se propaga más fácilmente en los primeros meses después de la infección, pero muchas personas no son conscientes de su estado hasta las etapas posteriores.
 :::
 
-### Warning
+--------------------------------------------------------------------------------------------------------------
 
-```md
-:::warning
-Critical content demanding immediate user attention due to potential risks.
-:::
-```
+### Datos sobre la ART (Tratamiento):
 
-:::warning
-Critical content demanding immediate user attention due to potential risks.
-:::
+- Las personas que viven con VIH y toman terapia antirretroviral (ART) con una carga viral indetectable no transmiten el VIH a sus parejas sexuales.
+- El acceso temprano a la ART y el apoyo para mantener el tratamiento son fundamentales no solo para mejorar la salud de quienes viven con VIH, sino también para prevenir la transmisión.
+- La ART actual no cura la infección por VIH, pero permite que el sistema inmunológico se fortalezca. Esto ayuda a combatir otras infecciones.
+- Actualmente, la ART debe tomarse todos los días durante el resto de la vida de una persona. La ART reduce la cantidad de virus en el cuerpo, detiene los síntomas y permite vivir una vida larga y saludable.
 
-## Customising the admonition title
+# Cuestionario Interactivo sobre el VIH
 
-You can customise the admonition title using the following markup:
+<iframe 
+  src="https://editor.p5js.org/Ritbaven/full/fkXK7WBc0" 
+  width="100%" 
+  height="600" 
+  style="border: none; margin-top: 20px;"
+  loading="lazy"
+  allowfullscreen
+></iframe>
 
-```md
-:::note[My custom title]
-This is a note with a custom title.
-:::
-```
+# Notas al pie
 
-Outputs:
+Referencias: 
 
-:::note[My custom title]
-This is a note with a custom title.
-:::
+https://www.who.int/news-room/fact-sheets/detail/hiv-aids ↩
+
+https://www.gob.mx/censida ↩
+
+Video por cgbp de https://pixabay.com ↩
+
+Imagen por cromaconceptovisual de https://pixabay.com ↩
+
+Imagen por Alexandra_Koch de https://pixabay.com ↩
+
+Imagen por OpenClipart-Vectors de https://pixabay.com ↩
+
+Imagen por roundsquid de https://pixabay.com ↩
