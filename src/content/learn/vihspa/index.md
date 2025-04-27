@@ -26,6 +26,8 @@ Un virus de transmisión sexual que destruye los glóbulos blancos del sistema i
 
 ------------------------------------------------------------------------------------------------------------------------------
 
+<iframe src="https://my.spline.design/hologramvirus-9LKzVj0yTE5kRMtejo32OwFO/" width="100%" height="500" frameborder="0"> </iframe>
+
 **Progresión del VIH**
 
 El VIH se propaga a través de ciertos fluidos corporales: sangre, semen, fluidos vaginales y leche materna.
