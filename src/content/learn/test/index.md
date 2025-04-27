@@ -1,9 +1,9 @@
 ---
-title: "This is a testing page"
-description: "A page to test interactive functionalities for the website!"
+title: "HIV"
+description: "What is HIV?"
 publishDate: "23 Apr 2025"
-topic: "Testing"
-tags: ["Test"]
+topic: "HIV"
+tags: ["HIV", "AIDS", "English", "Treatment"]
 ---
 # What is HIV?
 **Human immunodeficiency virus (HIV)**
@@ -74,51 +74,19 @@ HIV spreads more easily in the first few months after a person is infected, but 
 -	People living with HIV who are taking antiretroviral therapy (ART) and have an undetectable viral load will not transmit HIV to their sexual partners. 
 -	Early access to ART and support to remain on treatment is therefore critical not only to improve the health of people living with HIV but also to prevent HIV transmission.
 -	Current antiretroviral therapy (ART) does not cure HIV infection but allows a person’s immune system to get stronger. This helps them to fight other infections.
--	Currently, ART must be taken every day for the rest of a person’s life. ART lowers the amount of the virus in a person’s body. This stops symptoms and allows people to live full and healthy lives. 
+-	Currently, ART must be taken every day for the rest of a person’s life. ART lowers the amount of the virus in a person’s body. This stops symptoms and allows people to live full and healthy lives.
 
+# Interactive HIV Quiz
 
-
----
-title: "This is a testing page"
-description: "A page to test interactive functionalities for the website!"
-publishDate: "23 Apr 2025"
-topic: "Testing"
-tags: ["Test"]
-coverImage:
-  src: "./logo.png"
-  alt: "Logo"
-ogImage: "./logo.png"
----
-
-## This is a GIF animation embedding:
-![GIF](./animation.gif)
-
-## This is a YouTube video embedding:
 <iframe 
-    src="https://www.youtube.com/embed/UzaLg1BL6lI" 
-    title="Journey Through The Seven Continents Of Our World" 
-    frameborder="0" 
-    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
-    allowfullscreen 
-    width="100%" 
-    height="315">
-</iframe>
+  src="https://editor.p5js.org/Ritbaven/full/fkXK7WBc0" 
+  width="100%" 
+  height="600" 
+  style="border: none; margin-top: 20px;"
+  loading="lazy"
+  allowfullscreen
+></iframe>
 
-## This is a 3D Interactive embedding (using Spline):
-<iframe 
-    src="https://my.spline.design/cieloglayersoftheearthnoninteractivecopycopy-TZS1qrzJecqRAK9lMkqeSXPg/" 
-    width="100%" 
-    height="500" 
-    frameborder="0">
-</iframe>
-
-## This is a 2D Interactive embedding (using p5.js):
-<iframe 
-    src="https://editor.p5js.org/arthifact/full/uYnYvKU7r" 
-    width="100%" 
-    height="500" 
-    frameborder="0">
-</iframe>
 
 # Footnotes
 
